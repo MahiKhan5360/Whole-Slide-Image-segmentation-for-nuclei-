@@ -51,4 +51,7 @@ Additional references:
 - opencv-python
 - matplotlib
 
+Install dependencies with:
 
+```bash
+pip install numpy opencv-python matplotlib
