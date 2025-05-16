@@ -33,3 +33,22 @@ Additional references:
 - Hematoxylin-only image  
 - Eosin-only image
 
+### Steps:
+1. Convert image to Optical Density (OD) space
+2. Remove pixels below OD threshold (transparent regions)
+3. Perform SVD on filtered OD values
+4. Identify stain vectors from dominant directions
+5. Normalize stain intensities
+6. Separate Hematoxylin and Eosin components
+7. Reconstruct normalized image using standard stain profiles
+
+---
+
+## 💻 Requirements
+
+- Python 3.x
+- numpy
+- opencv-python
+- matplotlib
+
+
